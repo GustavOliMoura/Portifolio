@@ -1,0 +1,162 @@
+/* Testes com os tipos de seleção de elementos de css e praticando para fixar*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+
+    background-color: #DDE5D6;
+    color: #4B2E1E;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+
+
+    /*testando classe definida no código html, adicionando cor e borda aos títulos 3*/
+    /* .fonte3{
+        color: blue;
+        -webkit-text-stroke: 0.5px black;
+    } */
+
+}
+
+header {
+
+    padding: 2rem;
+    /*mudei do fundo estático para um gradiente, para fins de aprendizado
+    asimilando como ficaria em código e as mudanças na prática com live server*/
+
+    /*background-color: #BFCDB6;*/
+
+    background-image: radial-gradient(circle, #BFCDB6, #DDE5D6);
+    text-align: center;
+    border-radius: 0px;
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+main {
+
+    section>p {
+
+        padding: 2rem;
+        padding-left: 1rem;
+    }
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem
+}
+
+main h2 {
+    background-image: linear-gradient(to right, #BFCDB6, #DDE5D6);
+    font-style: italic;
+    padding: 0.5rem;
+}
+
+section form {
+    background-color: rgba(206, 219, 195, 0.699);
+    border-style: solid;
+    border-width: 0px;
+    border-color: #EEF2EC;
+    border-radius: 50px;
+    padding: 3rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+    textarea {
+        border-color: rgba(220, 235, 207, 0.699);
+        background-color: rgba(206, 219, 195, 0.699);
+        border-radius: 1rem;
+        width: 100%;
+        color: #56644d;
+        padding: 1rem;
+
+        .placeholder {
+
+            color: #56644d;
+        }
+
+    }
+
+    input {
+
+        background-color: #DDE5D6;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #71916128;
+        border-radius: 50px;
+        width: 19rem;
+        height: 2rem;
+        padding: 1rem;
+    }
+
+    select {
+
+        background-color: #DDE5D6;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #71916128;
+        width: 5rem;
+        height: 2rem;
+        border-radius: 50px;
+    }
+
+    button {
+
+        width: 7rem;
+        height: 2rem;
+        border-radius: 50px;
+        background-color: #bfd6b1;
+        border-color: #bfd6b1;
+    }
+
+    .submit:hover {
+
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+
+    }
+}
+
+
+
+article {
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+
+    p {
+        color: #BFCDB6;
+    }
+
+    padding: 2rem;
+    padding-top: 1rem;
+
+    p {
+        padding: 1rem;
+    }
+
+    a {
+        padding: 1rem;
+        text-decoration: none;
+        color: #4B2E1E;
+    }
+
+}
+
+footer a:hover {
+
+    text-decoration: underline;
+}
