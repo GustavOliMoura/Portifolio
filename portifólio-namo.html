@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- cabeçalho-->
+
+    <header>
+        <img src="logomarca.png">
+        <h1>Conheça a P1sces</h1>
+        <p>Criatividade e afeto</p>
+    </header>
+
+
+    <!-- conteúdo principal-->
+
+
+    <main>
+        <section>
+            <h2> Sobre mim</h2>
+            <p> Olá, sou Isabelle e tenho 24 anos. Tenho algumas paixões; como fotografia, arte e meus gatos</p>
+        </section>
+
+
+        <!-- seção projetos-->
+
+
+        <section>
+            <h2>Projetos</h2>
+        </section>
+        <section>
+            <article>
+                <h3 class="fonte3">Fotografias Femininas</h3>
+                <p> Fotografias buscando elevar a autoestima feminina e destacando a força e sutileza das mulheres</p>
+                <a href="fotografia.html">Ver projeto</a>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3 class="fonte3">Argila</h3>
+                <p> Esculturas de argila com propósitos estéticos e funcionais, buscando integração com ambientes e
+                    identidade</p>
+                <a href="argila.html">Ver projeto</a>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3>Planejamento e Marketing</h3>
+                <p> Estruturar marketing pessoal e empresarial, visando mídias cativantes que impulsionam vendas e
+                    cativam público</p>
+                <a href="marketing.html">Ver projeto</a>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3 class="fonte3">Tarot</h3>
+                <p> Consultas sobre vida pessoal e profissional</p>
+                <a href="tarot.html">Ver projeto</a>
+            </article>
+        </section>
+
+        <!--Subtítulo-->
+
+        <section>
+            <h2>Solicite um dos meus serviços:</h2>
+        </section>
+
+        <!-- Área de preenchimento-->
+
+        <section>
+            <form action="processa formulario.php" method="get">
+                <label for="mensagem"></label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite aqui..." cols="145" rows="5">
+            </textarea> <br><br>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Seu nome..." name="email" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Seu email..." name="email" required>
+
+                <label for="assunto">Selecione Serviço:</label>
+                <select id="assunto" name="assunto">
+                    <option value="tarot">Tarot</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="argila">Argila</option>
+                    <option value="fotografia">Fotografia</option>
+                </select> <br><br>
+
+                <button class="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- rodapé-->
+
+    <footer>
+        <p>&copy; 2025 Isabelle - Todos os direitos reservados</p>
+        <p>Conecte-se comigo:</p>
+        <a
+            href="https://www.instagram.com/lilbieber?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+        /
+        <!-- instagram fictício para fins de estudo-->
+        <a href="">Linkedin</a>
+    </footer>
+
+</body>
+
+</html>
